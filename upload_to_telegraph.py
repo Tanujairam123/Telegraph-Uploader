@@ -26,7 +26,7 @@ telegraphbot = Client("TELEGRAPH",
 @telegraphbot.on_message(filters.command('start') & filters.incoming)
 async def start_handlers(c, m):
     await m.reply_text(
-        "Hello **Dear!**\n\n"
+        "ᏔᎬᏞᏟϴᎷᎬ {} 😍 ᏀᏆᏙᎬ ᎷᎬ ᎪΝᎽ ᏢᎻϴͲϴ Ꮖ ᏔᏆᏞᏞ ᏟϴΝᏙᎬᎡͲ ͲᎬᏞᎬᏀᎡᎪᏢᎻ ႮᏢᏞϴᎪᎠᎬᎡ\n\n"
         "I am a telegra.ph uploader.\n\n"
         "⍟ I can upload photos to telegra.ph and gives you the link.\n"
         "⍟ I can create a instant view link for your text.\n"
